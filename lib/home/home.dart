@@ -20,9 +20,8 @@ class Home extends StatelessWidget {
           return const Center(
             child: ErrorMessage(),
           );
-        } else if (snapshot.hasData && snapshot.data != null) {
-          // Ensure snapshot has data and data is not null
-          return const Profile();
+        } else if (snapshot.hasData) {
+          return const Issue();
         } else {
           // Handle null or missing data state
           return const Login();

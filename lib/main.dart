@@ -15,8 +15,14 @@ import 'package:issuetracker/service/auth.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp();
-
+  await Firebase.initializeApp(
+      options: const FirebaseOptions(
+    apiKey: 'AIzaSyAyTn9c2r0faZTBqvih524Y1UK1ajQqJKg',
+    appId: '1:786301202267:android:4c0c2e1aa1e01d57bcb47e',
+    messagingSenderId: 'sendid',
+    projectId: 'issuetrackerv2',
+    storageBucket: 'issuetrackerv2.appspot.com',
+  ));
   runApp(StreamBuilder(
     stream: FirebaseAuth.instance.authStateChanges(),
     builder: (context, snapshot) {
