@@ -5,6 +5,7 @@ IssueTracker is a mobile application developed using Flutter that allows users t
 ## Screenshots
 
 <p align="center">
+  <img src="https://github.com/YeabTilahun/IssueTracker/assets/74009399/da619f2c-4794-405d-8c46-cfe09d4978be" width="200">
   <img src="https://github.com/YeabTilahun/IssueTracker/assets/74009399/d4080470-af4c-40ba-8445-9286b01a43a8" width="200">
   <img src="https://github.com/YeabTilahun/IssueTracker/assets/74009399/ec0f5461-a0bb-4592-a604-3e07f7718bd6" width="200">
   <img src="https://github.com/YeabTilahun/IssueTracker/assets/74009399/81722f74-8513-456e-a01f-a7dacd454c7b" width="200">
@@ -20,7 +21,7 @@ IssueTracker simplifies the process of reporting and tracking issues in your com
 - Upvote or downvote issues to indicate their urgency.
 - Get real-time updates on the status of reported issues.
 
-The app leverages Firebase for real-time data synchronization, providing users with the most up-to-date information on community issues.
+The app leverages `Firebase` for real-time data synchronization, providing users with the most up-to-date information on community issues.
 
 ## Getting Started
 
